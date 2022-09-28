@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   
   HomeScreen({Key? key}) : super(key: key);
   
-  final PageController pageController = PageController(initialPage: 2);
+  final PageController pageController = PageController(initialPage: 0);
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       
       // APPBAR WIDGET, RECIBE EL TITULO
-      appBar: const CustomAppBar('Tablero'),
+      appBar: const CustomAppBar(),
 
       // BOTTOM BAR WIDGET,
       bottomNavigationBar: CustomBottomBar( 

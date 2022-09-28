@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:urban_cotizer_app/provider/clientes_provider.dart';
 import 'package:urban_cotizer_app/providers/providers.dart';
 import 'package:urban_cotizer_app/router/app_router.dart';
 import 'package:urban_cotizer_app/screens/home_screen.dart';
@@ -12,6 +11,7 @@ void main() {
       providers: [
         ChangeNotifierProvider( create: (_) => IndexProvider()),
         ChangeNotifierProvider( create: (_) => ClientesProvider()),
+        ChangeNotifierProvider( create: (_) => PersonaProvider()),
       ],
       child: const MyApp()
       )

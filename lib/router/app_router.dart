@@ -9,6 +9,7 @@ class AppRouter {
         'cotizaciones' : (_) => const CotizacionesScreen(),
         'clientes'     : (_) => const ClientesScreen(),
         'productos'    : (_) => const ProductosScreen(),
+        'newCLiente'   : (_) => const NewClienteScreen()
       };
 
 }

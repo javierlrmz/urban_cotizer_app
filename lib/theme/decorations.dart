@@ -19,3 +19,10 @@ class Decorations {
         );
   }
 }
+
+ OutlineInputBorder buildInputRounded() {
+    return OutlineInputBorder(
+        borderRadius: BorderRadius.circular(100),
+        borderSide: BorderSide.none
+      );
+  }
