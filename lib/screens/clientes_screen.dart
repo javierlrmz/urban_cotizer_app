@@ -40,7 +40,7 @@ class ClientesScreen extends StatelessWidget {
             const SizedBox(width: 5),
 
             // BOTÓN AÑADIR / NUEVO
-            CustomButton( Icons.add, 35, 47, Colors.green, onPressed: () => Navigator.pushNamed(context, 'newCLiente') ),
+            CustomButton( Icons.add, 35, 42, Colors.green, onPressed: () => Navigator.pushNamed(context, 'newCLiente') ),
             ],
           ),
           

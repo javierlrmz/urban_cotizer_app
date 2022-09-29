@@ -12,6 +12,7 @@ void main() {
         ChangeNotifierProvider( create: (_) => IndexProvider()),
         ChangeNotifierProvider( create: (_) => ClientesProvider()),
         ChangeNotifierProvider( create: (_) => PersonaProvider()),
+        ChangeNotifierProvider( create: (_) => FormStateProvider()),
       ],
       child: const MyApp()
       )
